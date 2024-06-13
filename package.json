@@ -10,7 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "nuxt": "^3.11.2",
+    "prettier": "^2.8.8",
+    "sass": "^1.77.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   }
