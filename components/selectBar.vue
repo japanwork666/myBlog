@@ -73,32 +73,42 @@
 
 
 <style lang="scss" scoped>
+* {
+    box-sizing: border-box;
+}
+
 .select {
     padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .select-container {
 
 
-    .select-title-bar {
-        display: flex;
-        width: 73%;
-        justify-content: space-between;
+        .select-title-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0px;
 
-        button {
-            background-color: #fff;
-            border-radius: 15px;
-            padding: 10px 20px;
-            border: none;
+            button {
+                background-color: #fff;
+                border-radius: 15px;
+                padding: 10px 20px;
+                border: none;
+            }
         }
-    }
 
-    .main-select-bar {
-        display: flex;
+        .main-select-bar {
+            display: flex;
+            gap: 10px;
 
-        .select-item {
-            width: 15%;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 15px;
-            margin-right: 1vw;
+            .select-item {
+                width: 25%;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 15px;
+            }
         }
     }
 }
