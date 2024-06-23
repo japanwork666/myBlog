@@ -47,7 +47,7 @@ export default {
 
 .news-container {
     display: flex;
-    padding: 0px 200px;
+    padding: 0px 20px;
     height: 70vh;
 }
 

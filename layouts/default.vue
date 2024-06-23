@@ -39,6 +39,9 @@
     font-size: 26px;
     margin: 20px 50px;
     background-color: #fff;
+    position: sticky;
+    top: 15px;
+    opacity: 0.7;
 }
 
 .Banner-mid li {
