@@ -45,6 +45,10 @@ export default {
     box-sizing: border-box;
 }
 
+.news {
+    width: 100%;
+}
+
 .news-container {
     display: flex;
     padding: 0px 20px;

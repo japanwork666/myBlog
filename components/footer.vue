@@ -67,7 +67,7 @@
 .footer {
     background-color: black;
     color: #ffffff;
-    height: 40vh;
+    height: 40%;
     padding: 60px;
 }
 

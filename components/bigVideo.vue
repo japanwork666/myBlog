@@ -4,8 +4,10 @@
             <h2>DG <br>FinTect Shift</h2>
             <div>
                 <h3>The integration of payments, data and technology.</h3>
-                <p>This is a group strategy that combines the Digital Garage Group's three largest assets in Japan: “Payment
-                    Platform," “Media Business," and “Global Startup Investment Business” based on the purpose of "Designing
+                <p>This is a group strategy that combines the Digital Garage Group's three largest assets in Japan:
+                    “Payment
+                    Platform," “Media Business," and “Global Startup Investment Business” based on the purpose of
+                    "Designing
                     ‘New
                     Context’ for a sustainable society with technology.</p>
             </div>
