@@ -78,11 +78,16 @@
                     align-items: center;
                 }
 
-                .hamburger {
-                    display: none;
-                }
+                .hamburger {}
             }
         }
+    }
+}
+
+@media (max-width: 375px) {
+    .hamburger {
+        display: block;
+        background-color: greenyellow;
     }
 }
 </style>
