@@ -116,4 +116,41 @@
 .select-container:nth-child(1) {
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 375px) {
+    .select {
+        padding: 20px;
+
+        .select-container {
+            .main-select-bar {
+                flex-direction: column;
+
+                .select-item {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .select {
+        padding: 20px;
+
+        .select-container {
+            .main-select-bar {
+                flex-direction: column;
+
+                .select-item {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 1200px) {}
 </style>

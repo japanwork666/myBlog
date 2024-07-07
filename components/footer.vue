@@ -119,4 +119,35 @@
 
     }
 }
+
+@media screen and (max-width: 375px) {
+    .footer {
+        .main-footer-container {
+            height: 70vh;
+
+            .footer-above {
+                flex-direction: column;
+                align-items: center;
+
+                button {
+                    margin-top: 10px;
+                }
+            }
+
+            .footer-below {
+                flex-direction: column;
+
+                .footer-item {
+                    >ul {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1200px) {}
 </style>

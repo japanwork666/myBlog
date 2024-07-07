@@ -14,12 +14,12 @@
     border: 1px solid blueviolet;
     border-radius: 3px;
     color: blueviolet;
-    width: 9vw;
-    height: 2vh;
+    padding: 1px;
     font-size: 13px;
-    padding: 2px;
+    width: 75px;
+    height: 20px;
     display: flex;
-    align-items: center;
+    align-self: center;
     justify-content: center;
 }
 </style>

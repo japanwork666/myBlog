@@ -1,7 +1,7 @@
 <template>
     <div class="full-container">
         <div class="paragraph-container">
-            <h2>DG <br>FinTect Shift</h2>
+            <h2>DG <br>FinTech Shift</h2>
             <div>
                 <h3>The integration of payments, data and technology.</h3>
                 <p>This is a group strategy that combines the Digital Garage Group's three largest assets in Japan:
@@ -72,4 +72,81 @@
     }
 
 }
+
+@media screen and (max-width: 375px) {
+    .full-container {
+        padding: 20px;
+
+        .paragraph-container {
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                width: 100%;
+                font-size: 50px;
+            }
+
+            div {
+                width: 100%;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {}
+            }
+        }
+
+        .video-container {
+            padding: 0px 0px 20px 0px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            .main-video {
+                height: 40%;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .full-container {
+        padding: 20px;
+
+        .paragraph-container {
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                width: 100%;
+                font-size: 50px;
+            }
+
+            div {
+                width: 100%;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {}
+            }
+        }
+
+        .video-container {
+            padding: 0px 0px 20px 0px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            .main-video {
+                height: 40%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {}
 </style>

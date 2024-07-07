@@ -106,4 +106,42 @@ export default {
         }
     }
 }
+
+@media screen and (max-width: 375px) {
+    .news-container {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .left-news {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-news {
+        margin-top: 3vw;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .news-container {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .left-news {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-news {
+        margin-top: 3vw;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {}
 </style>
