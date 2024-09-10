@@ -1,9 +1,9 @@
 <template>
-    <div class="full-container">
-        <div class="paragraph-container">
-            <h2>DG <br>FinTech Shift</h2>
-            <div>
-                <h3>The integration of payments, data and technology.</h3>
+    <div class="full-container text-white bg-[#ac79a3] h-[100vh] p-[100px] flex flex-col justify-center">
+        <div class="paragraph-container flex items-end">
+            <h2 class="w-[80%] border border-1 border-[#ffff00] text-[100px]">DG <br>FinTech Shift</h2>
+            <div class="w-[50%] flex flex-col gap-[20px]">
+                <h3 class="text-[36px]">The integration of payments, data and technology.</h3>
                 <p>This is a group strategy that combines the Digital Garage Group's three largest assets in Japan:
                     “Payment
                     Platform," “Media Business," and “Global Startup Investment Business” based on the purpose of
@@ -12,8 +12,10 @@
                     Context’ for a sustainable society with technology.</p>
             </div>
         </div>
-        <div class="video-container">
-            <div class="main-video">video</div>
+        <div class="video-container h-[70%] flex justify-center border border-1 border-[#ffc0cb] p-[40px]">
+            <div
+                class="main-video w-[80%] h-[100%] rounded-[12px] bg-[#fff] text-black flex items-center justify-center text-[70px]">
+                video</div>
         </div>
     </div>
 </template>
@@ -21,54 +23,22 @@
 
 <style lang="scss" scoped>
 .full-container {
-    color: white;
-    background-color: rgb(172, 121, 163);
-    height: 100vh;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
 
     .paragraph-container {
-        display: flex;
-        align-items: end;
 
-        h2 {
-            width: 80%;
-            border: 1px solid yellow;
-            font-size: 100px;
-        }
+        h2 {}
 
         div {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
 
-            h3 {
-                font-size: 36px;
-            }
+
+            h3 {}
         }
     }
 
     .video-container {
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        border: 1px solid pink;
-        padding: 40px;
 
-        .main-video {
-            width: 80%;
-            height: 100%;
-            border-radius: 12px;
-            background-color: white;
-            color: black;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 70px;
-        }
+        .main-video {}
     }
 
 }

@@ -1,10 +1,10 @@
 <template>
-    <div class="footer">
+    <div class="footer bg-black text-[#ffffff] h-[40%] p-[60px]">
         <div>
             <h4>Home</h4>
         </div>
-        <div class="main-footer-container">
-            <div class="footer-above">
+        <div class="main-footer-container pt-[70px] pb-[70px]">
+            <div class="footer-above flex justify-between pt-[40px] pb-[40px]">
                 <div>DigitalGarage</div>
                 <button>Contact</button>
             </div>
@@ -64,23 +64,15 @@
     </div>
 </template>
 <style lang="scss">
-.footer {
-    background-color: black;
-    color: #ffffff;
-    height: 40%;
-    padding: 60px;
-}
+.footer {}
 
 .main-footer-container {
     border-top: 1px solid #A6A6A6;
     border-bottom: 5px solid #A6A6A6;
-    padding: 70px 0px;
 }
 
 .footer-above {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 0px;
+
 
     button {
         padding: 13px 50px;

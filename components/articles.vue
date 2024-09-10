@@ -1,48 +1,56 @@
 <template>
-    <div class="articles-container">
+    <div class="articles-container bg-black h-[50%] p-[50px] border border-white">
         <div>
-            <h1>Articles</h1>
+            <h1 class="text-white">Articles</h1>
             <div>Portal</div>
         </div>
-        <div class="card-item-container">
-            <div class="card-item">
+        <div class="card-item-container flex h-[100%]">
+            <div class="card-item w-[20%] h-[70%] rounded-[10px] border-2 border-custom-purple p-[20px] flex items-end">
                 <div>
-                    <p>＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need Advertising Strategies to
+                    <p class="text-white leading-[30px]">＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need
+                        Advertising
+                        Strategies to
                         <br>Protect
                         Brand
                         Value
                     </p>
-                    <p>2024.06.03</p>
+                    <p class="text-white leading-[30px]">2024.06.03</p>
                 </div>
             </div>
-            <div class="card-item">
+            <div class="card-item w-[20%] h-[70%] rounded-[10px] border-2 border-custom-purple p-[20px] flex items-end">
                 <div>
-                    <p>＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need Advertising Strategies to
+                    <p class="text-white leading-[30px]">＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need
+                        Advertising
+                        Strategies to
                         <br>Protect
                         Brand
                         Value
                     </p>
-                    <p>2024.06.03</p>
+                    <p class="text-white leading-[30px]">2024.06.03</p>
                 </div>
             </div>
-            <div class="card-item">
+            <div class="card-item w-[20%] h-[70%] rounded-[10px] border-2 border-custom-purple p-[20px] flex items-end">
                 <div>
-                    <p>＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need Advertising Strategies to
+                    <p class="text-white leading-[30px]">＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need
+                        Advertising
+                        Strategies to
                         <br>Protect
                         Brand
                         Value
                     </p>
-                    <p>2024.06.03</p>
+                    <p class="text-white leading-[30px]">2024.06.03</p>
                 </div>
             </div>
-            <div class="card-item">
+            <div class="card-item w-[20%] h-[70%] rounded-[10px] border-2 border-custom-purple p-[20px] flex items-end">
                 <div>
-                    <p>＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need Advertising Strategies to
+                    <p class="text-white leading-[30px]">＜Interview with TOYO KEIZAI and BI.Garage＞<br>Companies Need
+                        Advertising
+                        Strategies to
                         <br>Protect
                         Brand
                         Value
                     </p>
-                    <p>2024.06.03</p>
+                    <p class="text-white leading-[30px]">2024.06.03</p>
                 </div>
             </div>
         </div>
@@ -52,34 +60,19 @@
 
 <style lang="scss" scoped>
 .articles-container {
-    background-color: black;
-    height: 50%;
-    padding: 50px;
-    border: 1px solid white;
+
 
     div {
-        h1 {
-            color: white;
-        }
+        h1 {}
     }
 
     .card-item-container {
-        display: flex;
-        height: 100%;
+
 
         .card-item {
-            width: 20%;
-            height: 70%;
-            border-radius: 10px;
-            border: 2px solid purple;
-            padding: 20px;
-            display: flex;
-            align-items: end;
 
-            p {
-                color: white;
-                line-height: 30px;
-            }
+
+            p {}
         }
     }
 }
