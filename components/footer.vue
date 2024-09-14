@@ -3,57 +3,57 @@
         <div>
             <h4>Home</h4>
         </div>
-        <div class="main-footer-container pt-[70px] pb-[70px]">
-            <div class="footer-above flex justify-between pt-[40px] pb-[40px]">
+        <div class="main-footer-container pt-[70px] pb-[70px] mobile:h-[70vh]">
+            <div class="footer-above flex justify-between pt-[40px] pb-[40px] mobile:flex-col items-center">
                 <div>DigitalGarage</div>
-                <button>Contact</button>
+                <button class="px-[50px] py-[13px] rounded-[20px] cursor-pointer bg-transparent border border-white text-white mobile:mt-[10px]">Contact</button>
             </div>
-            <div class="footer-below">
-                <div class="footer-item">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Sustainbility</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Sustainbility</a></li>
-                        <li><a href="#">News</a></li>
+            <div class="footer-below flex mobile:flex-col">
+                <div class="footer-item w-0 flex-grow">
+                    <h4 class="mb-[15px] text-[#A6A6A6]">Company</h4>
+                    <ul class="list-none mobile:hidden">
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Company</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Business</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Sustainbility</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">News</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Business</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Sustainbility</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">News</a></li>
                     </ul>
                 </div>
-                <div class="footer-item">
-                    <h4>Business</h4>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Sustainbility</a></li>
-                        <li><a href="#">News</a></li>
+                <div class="footer-item w-0 flex-grow">
+                    <h4 class="mb-[15px] text-[#A6A6A6]">Business</h4>
+                    <ul class="list-none mobile:hidden">
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Company</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Business</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Sustainbility</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">News</a></li>
                     </ul>
                 </div>
-                <div class="footer-item">
-                    <h4>Sustainbility</h4>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Sustainbility</a></li>
-                        <li><a href="#">News</a></li>
+                <div class="footer-item w-0 flex-grow">
+                    <h4 class="mb-[15px] text-[#A6A6A6]">Sustainbility</h4>
+                    <ul class="list-none mobile:hidden">
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Company</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Business</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Sustainbility</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">News</a></li>
                     </ul>
                 </div>
-                <div class="footer-item">
-                    <h4>News</h4>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Sustainbility</a></li>
-                        <li><a href="#">News</a></li>
+                <div class="footer-item w-0 flex-grow">
+                    <h4 class="mb-[15px] text-[#A6A6A6]">News</h4>
+                    <ul class="list-none mobile:hidden">
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Company</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Business</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Sustainbility</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">News</a></li>
                     </ul>
                 </div>
-                <div class="footer-item">
-                    <h4>DG Investor Relations</h4>
-                    <ul>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Sustainbility</a></li>
+                <div class="footer-item w-0 flex-grow">
+                    <h4 class="mb-[15px] text-[#A6A6A6]">DG Investor Relations</h4>
+                    <ul class="list-none mobile:hidden">
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Career</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Business</a></li>
+                        <li class="mb-[10px]"><a class="no-underline text-white" href="#">Sustainbility</a></li>
                     </ul>
                     <div>
                         icon
@@ -75,37 +75,28 @@
 
 
     button {
-        padding: 13px 50px;
-        border-radius: 20px;
-        cursor: pointer;
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
+
     }
 }
 
 .footer-below {
-    display: flex;
+
 }
 
 .footer-item {
-    width: 0;
-    flex-grow: 1;
+
 
     h4 {
-        margin-bottom: 15px;
-        color: #A6A6A6;
+
     }
 
     ul {
-        list-style: none;
 
         li {
-            margin-bottom: 10px;
 
             a {
-                text-decoration: none;
-                color: white;
+
+
             }
         }
 
@@ -115,23 +106,20 @@
 @media screen and (max-width: 375px) {
     .footer {
         .main-footer-container {
-            height: 70vh;
 
             .footer-above {
-                flex-direction: column;
-                align-items: center;
 
                 button {
-                    margin-top: 10px;
+
                 }
             }
 
             .footer-below {
-                flex-direction: column;
+
 
                 .footer-item {
                     >ul {
-                        display: none;
+
                     }
                 }
             }

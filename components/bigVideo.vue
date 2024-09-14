@@ -1,9 +1,9 @@
 <template>
-    <div class="full-container text-white bg-[#ac79a3] h-[100vh] p-[100px] flex flex-col justify-center">
-        <div class="paragraph-container flex items-end">
-            <h2 class="w-[80%] border border-1 border-[#ffff00] text-[100px]">DG <br>FinTech Shift</h2>
-            <div class="w-[50%] flex flex-col gap-[20px]">
-                <h3 class="text-[36px]">The integration of payments, data and technology.</h3>
+    <div class="full-container text-white bg-[#ac79a3] h-[100vh] p-[100px] flex flex-col justify-center mobile:p-[20px] tablet:p-[20px]">
+        <div class="paragraph-container flex items-end mobile:flex-col items-center tablet:flex-col items-center">
+            <h2 class="w-[80%] border border-1 border-[#ffff00] text-[100px] mobile:w-[100%] text-[50px] tablet:w-[100%] text-[50px]">DG <br>FinTech Shift</h2>
+            <div class="w-[50%] flex flex-col gap-[20px] mobile:w-[100%] tablet:w-[100%]">
+                <h3 class="text-[36px] mobile:text-[20px] tablet:text-[20px]">The integration of payments, data and technology.</h3>
                 <p>This is a group strategy that combines the Digital Garage Group's three largest assets in Japan:
                     “Payment
                     Platform," “Media Business," and “Global Startup Investment Business” based on the purpose of
@@ -12,9 +12,9 @@
                     Context’ for a sustainable society with technology.</p>
             </div>
         </div>
-        <div class="video-container h-[70%] flex justify-center border border-1 border-[#ffc0cb] p-[40px]">
+        <div class="video-container h-[70%] flex justify-center border border-1 border-[#ffc0cb] p-[40px] mobile:pt-[0px] pr-[0px] pb-[20px] pl-[0px] h-[100%] flex items-center tablet:pt-[0px] pr-[0px] pb-[20px] pl-[0px] h-[100%] flex items-center">
             <div
-                class="main-video w-[80%] h-[100%] rounded-[12px] bg-[#fff] text-black flex items-center justify-center text-[70px]">
+                class="main-video w-[80%] h-[100%] rounded-[12px] bg-[#fff] text-black flex items-center justify-center text-[70px] mobile:h-[40%] tablet:h-[40%]">
                 video</div>
         </div>
     </div>
@@ -45,22 +45,20 @@
 
 @media screen and (max-width: 375px) {
     .full-container {
-        padding: 20px;
 
         .paragraph-container {
-            flex-direction: column;
-            align-items: center;
+
+
 
             h2 {
-                width: 100%;
-                font-size: 50px;
+
             }
 
             div {
-                width: 100%;
+
 
                 h3 {
-                    font-size: 20px;
+
                 }
 
                 p {}
@@ -68,13 +66,11 @@
         }
 
         .video-container {
-            padding: 0px 0px 20px 0px;
-            height: 100%;
-            display: flex;
-            align-items: center;
+
+
 
             .main-video {
-                height: 40%;
+
             }
         }
     }
@@ -83,22 +79,18 @@
 
 @media screen and (max-width: 768px) {
     .full-container {
-        padding: 20px;
+
 
         .paragraph-container {
-            flex-direction: column;
-            align-items: center;
 
             h2 {
-                width: 100%;
-                font-size: 50px;
+
             }
 
             div {
-                width: 100%;
+
 
                 h3 {
-                    font-size: 20px;
                 }
 
                 p {}
@@ -106,13 +98,8 @@
         }
 
         .video-container {
-            padding: 0px 0px 20px 0px;
-            height: 100%;
-            display: flex;
-            align-items: center;
 
             .main-video {
-                height: 40%;
             }
         }
     }

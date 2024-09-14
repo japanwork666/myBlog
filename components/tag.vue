@@ -1,5 +1,5 @@
 <template>
-    <div class="tag-container">
+    <div class="tag-container border border-[#8a2be2] rounded-[3px] text-[#8a2be2] p-[1px] text-[13px] w-[75px] h-[20px] flex items-center justify-center">
         <span>#</span>
         <span class="tag-title">
             <slot />
@@ -11,15 +11,6 @@
 
 <style lang="scss" scoped>
 .tag-container {
-    border: 1px solid blueviolet;
-    border-radius: 3px;
-    color: blueviolet;
-    padding: 1px;
-    font-size: 13px;
-    width: 75px;
-    height: 20px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
+
 }
 </style>

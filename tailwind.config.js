@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       screens: {
-        mobile: '375px',
-        tablet: '640px',
-        laptop: '1200px'
+        mobile: { max: '375px' },
+        tablet: { max: '768px' },
+        laptop: { max: '1200px' }
       },
       colors: {
         'custom-border': '#6e6666',
