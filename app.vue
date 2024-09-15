@@ -1,7 +1,11 @@
 <template>
-
-  <div>
+  <NuxtLayout>
     <NuxtPage />
-  </div>
-
+  </NuxtLayout>
 </template>
+<style>
+* {
+  margin: 0px;
+  padding: 0px;
+}
+</style>
